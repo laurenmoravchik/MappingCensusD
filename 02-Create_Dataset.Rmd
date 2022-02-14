@@ -14,7 +14,7 @@ library(leaflet)
 library(rmapshaper)
 library(tidycensus)
 options(tigris_use_cache = TRUE)
-
+census_api_key('c34571b2e8f56ff53fdad1434c1fc9b7f39cf398')
 ## turn off scientific notation
 options(scipen = 999)
 
